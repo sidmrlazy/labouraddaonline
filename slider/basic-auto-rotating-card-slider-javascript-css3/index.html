@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Basic Auto Rotating Card Slider Demo</title>
+<link href="http://www.cssscript.com/wp-includes/css/sticky.css" rel="stylesheet" type="text/css">
+<style>
+h1 { margin:150px auto 30px auto; text-align:center;}
+.container {
+  position: relative;
+  background: black;
+  max-width: 650px;
+  min-width: 650px;
+  height: 410px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.card {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: inline-block;
+  width: 340px;
+  height: 300px;
+  background: #ED5565;
+  margin: 5px;
+  border-radius:3px;
+  transition: transform 0.5s, background 0.3s ease-in-out;
+}
+
+.card:nth-child(1) { transform: translate(-170%, -50%); }
+
+.card:nth-child(2) { transform: translate(-50%, -50%); }
+
+.card:nth-child(3) { transform: translate(70%, -50%); }
+
+.card:nth-child(4) { transform: translate(190%, -50%); }
+
+.active {
+  background: #FFCE54;
+  transform: translate(-50%, -50%) scale(1.1) !important;
+}
+
+.next .card:nth-child(1) { transform: translate(-290%, -50%); }
+
+.next .card:nth-child(2) { transform: translate(-170%, -50%); }
+
+.next .card:nth-child(3) { transform: translate(-50%, -50%); }
+
+.next .card:nth-child(4) { transform: translate(70%, -50%); }
+
+.reset .card { transition: none; }
+
+.reset .card .card:nth-child(1) { transform: translate(-170%, -50%); }
+
+.reset .card .card:nth-child(2) { transform: translate(-50%, -50%); }
+
+.reset .card .card:nth-child(3) { transform: translate(70%, -50%); }
+
+.reset .card .card:nth-child(4) { transform: translate(190%, -50%); }
+</style>
+</head>
+
+<body>
+<div id="css-script-menu">
+  <div class="css-script-center">
+    <ul>
+      <li><a href="http://www.cssscript.com/image-caption-hover-animations-with-css3-transitions-and-transforms/">Download</a></li>
+      <li><a href="http://www.cssscript.com/">Back To CSS Script</a></li>
+    </ul>
+    <div class="css-script-ads">
+    <script type="text/javascript"><!--
+google_ad_client = "ca-pub-2783044520727903";
+/* CSSScript Demo Page */
+google_ad_slot = "3025259193";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+      <script type="text/javascript"
+src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script></div>
+    <div class="css-script-clear"></div>
+  </div>
+</div>
+<h1>Basic Auto Rotating Card Slider Demo</h1>
+<div class="container">
+  <div class="card"></div>
+  <div class="card active"></div>
+  <div class="card"></div>
+  <div class="card"></div>
+</div>
+<script>
+let holder = document.querySelectorAll('.container')[0],
+  cards = document.querySelectorAll('.card');
+
+let preActiveCard = cards[1];
+let nextActiveCard = cards[2];
+
+function scrollLeft() {
+  holder.classList.remove('next');
+  holder.classList.remove('reset');
+  holder.classList.add('next');
+  
+  preActiveCard.classList.remove('active');
+  nextActiveCard.classList.add('active');
+  setTimeout(reset, 600);
+}
+
+function reset() {
+  holder.classList.remove('next');
+  holder.classList.add('reset');
+  preActiveCard.classList.add('active');
+  nextActiveCard.classList.remove('active');
+}
+
+setInterval(scrollLeft, 1500);
+
+
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-46156385-1', 'cssscript.com');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
