@@ -1,9 +1,9 @@
 <?php
 // Production
 $servername = "localhost";
-$username = "u976956619_onlyn";
-$database = "u976956619_onlyn";
-$password = "Sid12asthana";
+$username = "u976956619_labouraddaol";
+$database = "u976956619_labouraddaol";
+$password = "Darthvader@order66";
 
 // Development
 // $servername = "localhost";
