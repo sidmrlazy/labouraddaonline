@@ -1,4 +1,5 @@
-<?php include "includes/header.php" ?>
+<?php // include "includes/header.php" 
+?>
 
 <body id="top">
         <!-- Google Tag Manager (noscript) -->
@@ -7,10 +8,15 @@
         <!-- End Google Tag Manager (noscript) -->
         <?php //include "includes/modal-popup.php" 
         ?>
-        <?php include "includes/navigation.php" ?>
-        <?php include "includes/home-page.php" ?>
-        <?php include "includes/testimonials.php" ?>
-        <?php include "includes/icreate.php" ?>
+        <?php include "offline/offline.php" ?>
+        <?php // include "includes/navigation.php" 
+        ?>
+        <?php // include "includes/home-page.php" 
+        ?>
+        <?php // include "includes/testimonials.php" 
+        ?>
+        <?php // include "includes/icreate.php" 
+        ?>
         <?php //include "includes/job-site.php" 
         ?>
         <?php //include "includes/job-listed.php" 
@@ -21,4 +27,5 @@
         ?>
         <?php // include "includes/app.php" 
         ?>
-        <?php include "includes/footer.php" ?>
+        <?php // include "includes/footer.php" 
+        ?>
