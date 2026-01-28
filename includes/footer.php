@@ -27,44 +27,42 @@
 			</div>
 
 			<div class="col-6 col-md-3 mb-4 mb-md-0">
-			<h3>Company</h3>
+				<h3>Company</h3>
 				<ul class="list-unstyled">
 					<li><a href="who-we-are">About Us</a></li>
-					<li><a href="contact">Career</a></li>
+					<!-- <li><a href="contact">Career</a></li> -->
 					<li><a href="blog">Updates & Media</a></li>
 					<!--<li><a href="provincial_partner">Super Franchisee Opportunity</a></li>-->
 					<!--<li><a href="franchisee-opportunity">Franchisee Opportunity</a></li>-->
-					<li><a href="https://play.google.com/store/apps/details?id=com.labouraddadealer" target="_blank">Dealer Opportunity</a></li>
+					<!-- <li><a href="https://play.google.com/store/apps/details?id=com.labouraddadealer" target="_blank">Dealer Opportunity</a></li> -->
 				</ul>
 			</div>
 
 			<div class="col-6 col-md-3 mb-4 mb-md-0">
-			<h3>Support</h3>
-			<ul class="list-unstyled">
-				<li><a href="disclaimer">Disclaimer</a></li>
-				<li><a href="privacy-policy">Privacy Policy</a></li>
-				<li><a href="tnc">Terms of Service</a></li>				
-				<li><a href="https://www.icreate.org.in" target="_blank">Incubated at iCreate</a></li>
-			</ul>
+				<h3>Support</h3>
+				<ul class="list-unstyled">
+					<li><a href="disclaimer">Disclaimer</a></li>
+					<li><a href="privacy-policy">Privacy Policy</a></li>
+					<li><a href="tnc">Terms of Service</a></li>
+					<li><a href="https://www.icreate.org.in" target="_blank">Incubated at iCreate</a></li>
+				</ul>
 			</div>
-			
-			<div class="col-6 col-md-3 mb-4 mb-md-0">
-			<h3>Partner Login</h3>
-			<ul class="list-unstyled">
-				<li><a href="https://lmis.in/cityfranchisee" target="_blank">Super Franchisee Login</a></li>
-				<li><a href="https://lmis.in/franchisee" target="_blank">Franchisee Login</a></li>
-				<!--<li><a href="https://lmis.in/dealer" target="_blank">Dealer Login</a></li>				-->
-				<!--<li><a href="#" target="_blank">Incubated at iCreate</a></li>-->
-			</ul>
-			</div>
+
+			<!-- <div class="col-6 col-md-3 mb-4 mb-md-0">
+				<h3>Partner Login</h3>
+				<ul class="list-unstyled">
+					<li><a href="https://lmis.in/cityfranchisee" target="_blank">Super Franchisee Login</a></li>
+					<li><a href="https://lmis.in/franchisee" target="_blank">Franchisee Login</a></li>					
+				</ul>
+			</div> -->
 
 			<div class="col-6 col-md-3 mb-4 mb-md-0">
 				<h3>Social Network</h3>
 				<div class="">
-					<a href="https://play.google.com/store/apps/details?id=in.otaf.labouradda" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/google-play.png"></a>
+					<!-- <a href="https://play.google.com/store/apps/details?id=in.otaf.labouradda" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/google-play.png"></a> -->
 					<a href="https://www.facebook.com/labouradda/" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/facebook-new.png"></a>
-					<a href="https://twitter.com/labouradda"target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/twitter.png"></a> 
-					<a href="https://www.instagram.com/labouradda/?hl=en" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/instagram-new.png"></a> 										
+					<!-- <a href="https://twitter.com/labouradda" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/twitter.png"></a> -->
+					<!-- <a href="https://www.instagram.com/labouradda/?hl=en" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/instagram-new.png"></a> -->
 				</div>
 
 				<br>
@@ -74,23 +72,25 @@
 					<li> F - 501, Akanksha Savvy Swaraj. Gujarat.</li>
 				</ul>
 
-				<h3>Customer Help Desk</h3>
+				<!-- <h3>Customer Help Desk</h3>
 				<ul class="list-unstyled">
 					<li><a href="#">+91 880 880 8888</a> </li>
-				</ul>
+				</ul> -->
 
-				</div>
-			</div>
-		</div>	
-		
-
-		<div class="row text-center">
-			<div class="col-12">
-				<p class="copyright"><small>Copyright &copy;<script type="ff15257ad88a221c46a49304-text/javascript">document.write(new Date().getFullYear());</script> All rights reserved</a></small></p>
 			</div>
 		</div>
 	</div>
-</div>
+
+
+	<div class="row text-center">
+		<div class="col-12">
+			<p class="copyright"><small>Copyright &copy;<script type="ff15257ad88a221c46a49304-text/javascript">
+						document.write(new Date().getFullYear());
+					</script> All rights reserved</a></small></p>
+		</div>
+	</div>
+	</div>
+	</div>
 </footer>
 
 <script src="js/jquery.min.js" type="ff15257ad88a221c46a49304-text/javascript"></script>

@@ -4,9 +4,9 @@
 <section class="section-hero overlay inner-page bg-image" style="background-image: url('images/la-gallery/banner2.jpeg');" id="home-section">
 	<div class="container">
 		<div class="row">
- 			<div class="col-md-7">
+			<div class="col-md-7">
 				<h1 class="text-white font-weight-bold">Updates & Media</h1>
-				
+
 				<div class="custom-breadcrumbs">
 					<a href="index.php">Home</a> <span class="mx-2 slash">/</span>
 					<span class="text-white"><strong>Updates & Media</strong></span>
@@ -16,31 +16,31 @@
 	</div>
 </section>
 
-<section class="site-section">
+<!-- <section class="site-section">
 	<div class="container">
 		<div class="row mb-5">
 			<div class="col-md-6 col-lg-4 mb-5">
 				<a href="blog-OdeToTheGovt" class="text-black">
-					<img src="images/la-blog-imgs/blog1Pic.png"  class="img-fluid rounded mb-4">
+					<img src="images/la-blog-imgs/blog1Pic.png" class="img-fluid rounded mb-4">
 					<h3 style="text-align: center; font-weight: bolder;">An Ode to the State Governments</h3>
 				</a>
 			</div>
 		</div>
 	</div>
-</section>
+</section> -->
 
 <section class="site-section">
 	<div class="container">
-		<div class="row mb-5">			
+		<div class="row mb-5">
 
 			<div class="col-md-6 col-lg-4 mb-5">
 				<!-- <a href="blog1.php"><img src="images/la-blog-imgs/counter1.png" alt="Image" class="img-fluid rounded mb-4"></a> -->
 				<iframe class="img-fluid rounded mb-4" width="auto" height="auto" src="https://www.youtube.com/embed/zbnTFwtvXYI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				<h3><a href="#" class="text-black">Labouradda being recognized by the Honorable Prime Minister of India Mr. Narendra Modi</a></h3>
-			<!-- <div>Jan 03 2019 <span class="mx-2">
+				<!-- <div>Jan 03 2019 <span class="mx-2">
 			|</span> <a href="#">Samiksha Sen</a></div> -->
 			</div>
-			
+
 			<div class="col-md-6 col-lg-4 mb-5">
 				<iframe class="img-fluid rounded mb-4" width="auto" height="auto" src="https://www.youtube.com/embed/1DhZ4DVEkLQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				<h3><a href="#" class="text-black">Live TV Coverage by News Nation on the occassion of Inaugration of iCreate</a></h3>
@@ -52,13 +52,13 @@
 				<h3><a href="#" class="text-black">Appreciation received by the MLA's and MP's of Faizabad on the occassion of launch of Labouradda in Faizabad</a></h3>
 				<!-- <div>April 15, 2019 <span class="mx-2">|</span> <a href="#">2 Comments</a></div> -->
 			</div>
-			
+
 			<div class="col-md-6 col-lg-4 mb-5">
 				<iframe class="img-fluid rounded mb-4" width="auto" height="auto" src="https://www.youtube.com/embed/ILraHTMklAg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				<h3><a href="#" class="text-black">Press Conference held at Faizabad on the occasion of launch of Labouradda</a></h3>
 				<!-- <div>April 15, 2019 <span class="mx-2">|</span> <a href="#">2 Comments</a></div> -->
 			</div>
-			
+
 			<div class="col-md-6 col-lg-4 mb-5">
 				<iframe class="img-fluid rounded mb-4" width="auto" height="auto" src="https://www.youtube.com/embed/kyCDEH3KvM4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				<h3><a href="#" class="text-black">Labouradda - Showcased on National Voice News (UP/UK) Channel</a></h3>
@@ -71,7 +71,7 @@
 				<div>28th Feb 2019 <span class="mx-2">|</span> <a href="#">By Sameer Ranjan</a></div>
 			</div> -->
 		</div>
-		
+
 		<!-- <div class="row pagination-wrap mt-5">
 			<div class="col-md-12 text-center ">
 				<div class="custom-pagination ml-auto">
@@ -112,7 +112,7 @@
 				<div>Jul 10, 2018 <span class="mx-2">|</span> <a href="#">By DNA Ahmedabad</a></div>
 			</div>
 		</div>
-		
+
 		<!-- <div class="row pagination-wrap mt-5">
 			<div class="col-md-12 text-center ">
 				<div class="custom-pagination ml-auto">
